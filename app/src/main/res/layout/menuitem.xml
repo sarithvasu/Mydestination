@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dest_list_bg"
+    android:gravity="bottom">
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cloud"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/building"
+        android:layout_marginTop="80dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:text="@string/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:shadowColor="#000000"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="24sp"
+
+            android:textStyle="bold"
+            android:fontFamily="SF NS Display" />
+        <TextView
+            android:text="@string/sub_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+
+            android:fontFamily="SF NS Display"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height=".5dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="5dp"
+            android:alpha="0.30"
+            android:background="@color/white"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addlocation"
+            android:textSize="21sp"
+            android:shadowColor="#000000"
+            android:id="@+id/tv_addlocation"
+            android:drawablePadding="10dp"
+            android:drawableTint="@android:color/white"
+            android:textColor="#FFFFFF"
+            android:drawableLeft="@drawable/add_location_24_29"
+            android:fontFamily="SF NS Display"
+            android:padding="6dp"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/destinationlist"
+            android:textSize="21sp"
+            android:shadowColor="#000000"
+            android:textColor="#FFFFFF"
+            android:padding="6dp"
+            android:id="@+id/tv_destinationlist"
+            android:drawablePadding="10dp"
+            android:drawableTint="@android:color/white"
+            android:drawableLeft="@drawable/destination_list_22_29"
+            android:fontFamily="SF NS Display"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textSize="21sp"
+            android:id="@+id/tv_settings"
+            android:shadowColor="#000000"
+            android:textColor="#FFFFFF"
+            android:padding="6dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="@android:color/white"
+            android:drawableLeft="@drawable/icon_settings_24_24"
+            android:fontFamily="SF NS Display"
+            />
+    </LinearLayout>
+</LinearLayout>

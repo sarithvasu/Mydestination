@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="menuItem">
+        <item name="android:fontFamily">SF NS Display</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="destination_list_header_text">
+        <item name="android:textColor">@color/header_text_color</item>
+
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:fontFamily">SF NS Display</item>
+    </style>
+
+    <style name="destination_list_text_blue">
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:fontFamily">SF NS Display</item>
+    </style>
+
+    <style name="destination_list_text_gray">
+        <item name="android:textColor">@color/gray</item>
+
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:fontFamily">SF NS Display</item>
+    </style>
+</resources>

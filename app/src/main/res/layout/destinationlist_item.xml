@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/destination_name"
+    android:text="dfdjghdfkgjkdfjlgjldfjgjdflgkl"
+    style="@style/destination_list_header_text"
+    android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/remaing_distance"
+        style="@style/destination_list_text_blue"
+
+
+        android:padding="5dp"
+        android:maxLines="1"
+        android:layout_toRightOf="@+id/actual_distance"
+        android:layout_alignBaseline="@+id/actual_distance"
+        android:layout_alignBottom="@+id/actual_distance"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:maxLines="1"
+        style="@style/destination_list_text_blue"
+
+        android:layout_toRightOf="@+id/remaing_distance"
+        android:layout_alignBaseline="@+id/actual_distance"
+        android:layout_alignBottom="@+id/actual_distance"
+         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/refersh_icon"
+        android:src="@drawable/refresh_icon"
+        android:focusable="false"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/time"
+        android:layout_alignStart="@+id/time" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/destination_address"
+        android:maxLines="1"
+        android:text="adredssssssssssssssssssssssssssssssssssssssssss"
+        android:ellipsize="end"
+        style="@style/destination_list_text_gray"
+        android:layout_below="@+id/destination_name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/actual_distance"
+        style="@style/destination_list_text_blue"
+        android:text="distanceddfdf"
+        android:layout_marginBottom="10dp"
+        android:maxLines="1"
+        android:layout_below="@+id/destination_address"
+
+         />
+</RelativeLayout>

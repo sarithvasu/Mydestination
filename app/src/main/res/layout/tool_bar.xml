@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary"
+    android:id="@+id/tool_bar"
+    android:elevation="4dp">
+
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+    <AutoCompleteTextView
+        android:id="@+id/destination"
+        android:layout_width="0dp"
+        android:layout_weight=".8"
+        android:textColorHint="@color/icons"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:hint="Choose a destination..."
+        tools:ignore="Suspicious0dp"
+        android:textColor="@color/icons"
+        android:singleLine="true"/>
+    <ImageView
+        android:id="@+id/send"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="0dp"
+        android:layout_weight=".2"
+        android:src="@drawable/ic_send_grey600_48dp"
+        android:layout_height="36dp" />
+
+</LinearLayout>
+    </android.support.v7.widget.Toolbar>

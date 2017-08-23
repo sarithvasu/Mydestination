@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_destination_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dest_list_bg"
+    android:orientation="vertical"
+    tools:context="mudio.sumanth.come.mydestination.userdetails.DestinationList">
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@color/header_bg" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/back"
+            android:tint="@android:color/white"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewSummaryHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Destination List"
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:typeface="serif" />
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/refresh"
+            android:tint="@android:color/white"
+            android:layout_marginRight="5dp"
+            />
+
+
+    </RelativeLayout>
+
+
+        <ListView
+            android:id="@+id/lvItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="1dp"
+            android:divider="@color/gray"
+            android:layout_weight="1"
+            android:layout_below="@+id/relativeLayout1">
+        </ListView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/addlocation"
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_addlocation"
+            android:textSize="21sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add"
+            android:tint="@android:color/white"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_addlocation"
+            android:layout_toStartOf="@+id/tv_addlocation" />
+    </RelativeLayout>
+
+   </LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="menuItem">
+                <item name="android:fontFamily">SF NS Display</item>
+
+                android:textSize="24dp"
+                android:shadowColor="#000000"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:fontFamily="SF NS Display"
+        </style>
+</resources>
